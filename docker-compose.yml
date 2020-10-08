@@ -2,3 +2,9 @@ version: "3"
 services:
   api:
     build: ./api
+    command: npm run start
+    ports:
+    - "3000:3000"
+    environment:
+      - PORT=3000
+      - HOST=http://realworld-docker.com
