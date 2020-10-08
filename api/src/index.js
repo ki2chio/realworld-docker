@@ -1,11 +1,10 @@
 const express = require("express")
 const app = express()
-const port = process.env.PORT
-const host = process.env.HOST
+const {port, host} = require('./configuration')
 
 const {connectDB} = require('./helper/helper_db.js')
 
-const {port, host} = require('./configuration')
+
 
 function startServer(){
     app.listen(port, () => {
@@ -23,3 +22,5 @@ connectDB()
     .on('error', console.error.bind(console, "connection error:"))
     .on('disconnected', connectDB)
     .once('open', startServer)
+
+
