@@ -14,6 +14,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ib7ntlQOz8p6KbY1O0pMZA4lQ0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,17 +33,6 @@
     <property name="settings.editor.selected.configurable" value="FeaturesTrainerSettingsPanel" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="realworld-docker" />
       <option name="VM_PARAMETERS" />
@@ -98,7 +90,12 @@
       <option name="presentableId" value="Default" />
       <updated>1602164609877</updated>
       <workItem from="1602164612493" duration="577000" />
-      <workItem from="1602165966831" duration="7857000" />
+      <workItem from="1602165966831" duration="8197000" />
+      <workItem from="1602841746844" duration="2255000" />
+      <workItem from="1602844766858" duration="21000" />
+      <workItem from="1602845760609" duration="301000" />
+      <workItem from="1602846836357" duration="342000" />
+      <workItem from="1602847650172" duration="1484000" />
     </task>
     <servers />
   </component>
@@ -106,6 +103,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="845" y="374" key="Github.CreateGistDialog" timestamp="1602174122876">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="845" y="374" key="Github.CreateGistDialog/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602174122876" />
     <state x="682" y="451" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1602166095685">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
