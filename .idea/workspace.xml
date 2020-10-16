@@ -30,9 +30,23 @@
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.64" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="FeaturesTrainerSettingsPanel" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="realworld-docker" />
       <option name="VM_PARAMETERS" />
@@ -80,6 +94,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/api/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -95,7 +124,7 @@
       <workItem from="1602844766858" duration="21000" />
       <workItem from="1602845760609" duration="301000" />
       <workItem from="1602846836357" duration="342000" />
-      <workItem from="1602847650172" duration="1484000" />
+      <workItem from="1602847650172" duration="5360000" />
     </task>
     <servers />
   </component>
@@ -107,6 +136,26 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="845" y="374" key="Github.CreateGistDialog/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602174122876" />
+    <state width="1876" height="295" key="GridCell.Tab.0.bottom" timestamp="1602852944673">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="295" key="GridCell.Tab.0.bottom/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602852944673" />
+    <state width="1876" height="295" key="GridCell.Tab.0.center" timestamp="1602852944672">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="295" key="GridCell.Tab.0.center/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602852944672" />
+    <state width="1876" height="295" key="GridCell.Tab.0.left" timestamp="1602852944672">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="295" key="GridCell.Tab.0.left/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602852944672" />
+    <state width="1876" height="295" key="GridCell.Tab.0.right" timestamp="1602852944673">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="295" key="GridCell.Tab.0.right/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602852944673" />
+    <state x="440" y="114" key="SettingsEditor" timestamp="1602852456737">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="440" y="114" key="SettingsEditor/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602852456737" />
     <state x="682" y="451" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1602166095685">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
