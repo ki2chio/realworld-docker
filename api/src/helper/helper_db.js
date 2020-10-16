@@ -8,4 +8,6 @@ module.exports.connectDB = () => {
 const Keyboard = mongoose.model('Keyboard', { name: String });
 
 const ducky  = new Keyboard({ name: 'ducky' });
-ducky.save().then(() => console.log('DB is work ALLLLLLLLLLLLLLLLLL - OK'));
+const Logitech  = new Keyboard({ name: 'Logitech' });
+ducky.save().then(() => console.log('DB is work ALLLLLLLLLLLLLLLLLL - OK !'));
+Logitech.save().then(() => console.log('nodemon is work - OK !'));
