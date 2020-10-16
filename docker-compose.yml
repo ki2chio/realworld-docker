@@ -3,6 +3,7 @@ services:
   api:
     build: ./api
     command: npm run start
+    container_name: realworld-docker-api
     ports:
     - "3000:3000"
     environment:
@@ -13,6 +14,7 @@ services:
       - api_db
   api_db:
     image: mongo:latest
+    container_name: realworld-docker-api-db
     volumes:
       - mongodb_api:/data/db
 volumes:

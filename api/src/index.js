@@ -14,7 +14,7 @@ function startServer(){
 }
 
 app.get("/test", (req, res) =>{
-    res.send("all OK /n Server is working correctly on Dev mode !")
+    res.send("all OK /n Server is working correctly on Dev mode!")
 })
 
 
