@@ -28,12 +28,18 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.4" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.64" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="FeaturesTrainerSettingsPanel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\realworld-docker\frontend" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -126,7 +132,7 @@
       <workItem from="1602846836357" duration="342000" />
       <workItem from="1602847650172" duration="7435000" />
       <workItem from="1603192464493" duration="1813000" />
-      <workItem from="1603291572311" duration="3468000" />
+      <workItem from="1603291572311" duration="4216000" />
     </task>
     <servers />
   </component>

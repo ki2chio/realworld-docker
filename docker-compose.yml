@@ -6,9 +6,9 @@ services:
     container_name: realworld-docker-frontend
     ports:
     - "3000:3000"
-    restart: unless-stopped
     stdin_open: true
     tty: true
+    restart: unless-stopped
   api:
     build: ./api
     command: npm run start
