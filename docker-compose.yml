@@ -1,18 +1,20 @@
 version: "3"
 services:
-#  frontend:
-#    build: ./frontend
-#    command: serve -s build -l 3000
-#    container_name: realworld-docker-frontend
-#    ports:
-#    - "3000:3000"
-#    restart: unless-stopped
+  frontend:
+    build: ./frontend
+    command: npm run start
+    container_name: realworld-docker-frontend
+    ports:
+    - "3000:3000"
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
   api:
     build: ./api
     command: npm run start
     container_name: realworld-docker-api
     ports:
-    - "3000:3000"
+    - "3001:3001"
     environment:
       - PORT=3000
       - HOST=http://realworld-docker.com
@@ -29,7 +31,7 @@ services:
     command: npm run start
     container_name: realworld-docker-auth
     ports:
-    - "3001:3001"
+    - "3002:3002"
     environment:
       - PORT=3001
       - HOST=http://realworld-docker.com/auth
