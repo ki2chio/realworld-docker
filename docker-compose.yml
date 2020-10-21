@@ -1,5 +1,12 @@
 version: "3"
 services:
+#  frontend:
+#    build: ./frontend
+#    command: serve -s build -l 3000
+#    container_name: realworld-docker-frontend
+#    ports:
+#    - "3000:3000"
+#    restart: unless-stopped
   api:
     build: ./api
     command: npm run start
