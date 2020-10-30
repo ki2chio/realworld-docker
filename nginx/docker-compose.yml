@@ -1,0 +1,9 @@
+nginx:
+  image: nginx:stable-alpine
+  container_name: realworld-docker-demo-nginx
+  ports:
+    - "80:80"
+  volumes:
+    - ./nginx/nginx.conf.prod:/etc/nginx/conf.d/nginx.conf
+  dependens_on:
+    - frontend

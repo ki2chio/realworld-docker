@@ -23,4 +23,11 @@ connectDB()
     .on('disconnected', connectDB)
     .once('open', startServer)
 
+app.get("api/user", (req,res)=> {
+    res.json({
+        id: "1999",
+        firstName: "Illiya",
+        lastName: "Chernyak"
+    })
+})
 

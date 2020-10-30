@@ -1,6 +1,7 @@
 const express = require("express")
 const app = express()
 const {port, host} = require('./configuration')
+const {port, host, authApiUrl} = require("./configuration")
 
 const {connectDB} = require('./helper/helper_db.js')
 
@@ -22,5 +23,14 @@ connectDB()
     .on('error', console.error.bind(console, "connection error:"))
     .on('disconnected', connectDB)
     .once('open', startServer)
+
+app.get("/currentUser", (req,res)=>{
+    axios.get(authApiUrl + "/user").then((response)=>{
+        res.json({
+            test: true,
+            currentUserFromAuth: response.data
+        })
+    })
+})
 
 
