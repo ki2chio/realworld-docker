@@ -20,14 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bf95226-d293-4376-9681-69bb29b0ced2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nginx/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/nginx.conf.prod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/nginx.conf.dev" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/configuration/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/configuration/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/auth/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/nginx.conf.prod" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/nginx.conf.prod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,29 +58,28 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.4" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.64" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/node_modules" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="FeaturesTrainerSettingsPanel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\realworld-docker\nginx" />
       <recent name="C:\realworld-docker\frontend" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,7 +164,10 @@
       <workItem from="1602847650172" duration="7435000" />
       <workItem from="1603192464493" duration="1813000" />
       <workItem from="1603291572311" duration="6672000" />
-      <workItem from="1604051471763" duration="3716000" />
+      <workItem from="1604051471763" duration="8068000" />
+      <workItem from="1604061525216" duration="4341000" />
+      <workItem from="1604067030159" duration="415000" />
+      <workItem from="1604067474117" duration="3179000" />
     </task>
     <servers />
   </component>
@@ -179,12 +184,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="222" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604054352867">
+    <state x="222" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604060289913">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="222" y="345" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1604054352867" />
+    <state x="222" y="345" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1604060289913" />
+    <state x="740" y="249" key="FileChooserDialogImpl" timestamp="1604067691355">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="249" key="FileChooserDialogImpl/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1604067691355" />
     <state x="845" y="374" key="Github.CreateGistDialog" timestamp="1602174122876">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -205,10 +215,14 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="295" key="GridCell.Tab.0.right/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602852944673" />
-    <state x="440" y="114" key="SettingsEditor" timestamp="1602852456737">
+    <state x="625" y="244" width="671" height="592" key="NewModule_or_Project.wizard" timestamp="1604067736891">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="440" y="114" key="SettingsEditor/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602852456737" />
+    <state x="625" y="244" width="671" height="592" key="NewModule_or_Project.wizard/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1604067736891" />
+    <state x="440" y="114" key="SettingsEditor" timestamp="1604067740046">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="440" y="114" key="SettingsEditor/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1604067740046" />
     <state x="682" y="451" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1602166095685">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
